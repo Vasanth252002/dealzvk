@@ -1,0 +1,19 @@
+.products-container{
+    display:flex;
+}
+.products-left{
+   
+    flex:0.2;
+    position: sticky;
+    height:50%;
+    top:0px;
+}
+.products-right{
+    flex:2.8;
+}
+.catImg{
+    width: 100%;
+
+}
+
+

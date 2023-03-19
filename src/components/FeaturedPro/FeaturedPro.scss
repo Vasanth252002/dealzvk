@@ -1,0 +1,15 @@
+.featured-products-container{
+    margin-top:2vh;
+    margin-bottom: 2vh;
+
+    .fp-header{
+        text-align: center;
+    }
+}
+.fp-body{
+    display: flex;
+    justify-content: center;
+    gap:4vh;
+    align-items: center;
+    flex-wrap: wrap;
+}

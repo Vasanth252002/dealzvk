@@ -1,0 +1,68 @@
+.text-black{
+    color:black;
+}
+.item-title{
+    font-size: 1.2rem;
+    margin-top: 0px;
+   
+}
+.card{
+    width:30vh;
+    padding:5px;
+   margin-bottom: 4vh;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgb(188, 190, 190);
+    display:flex;
+    flex-direction: column;
+    gap:0vh;
+    height:50vh;
+
+    .images{
+        width:100%;
+        
+        height:40vh;
+        margin-bottom: 0px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    &:hover{
+        .secondImg{
+            z-index: 2;
+        }
+    }
+
+    img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+        position: absolute;
+    }
+    .firstImg{
+        z-index: 1;
+    }
+    
+}
+
+.links-card{
+    text-decoration: none;
+    color:black;
+    font-size:1.1rem;
+}
+.prices{
+  
+    background-color: 0px;
+    font-size: 0.8rem;
+    display: flex;
+    gap:1vh;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.old{
+    color:gray;
+    text-decoration: line-through;
+
+}
+
+

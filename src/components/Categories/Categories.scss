@@ -1,0 +1,22 @@
+.upper-categories{
+    display: flex;
+    flex-direction: row;
+    gap:3vh;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width:40vw;
+    height:50vh;
+}
+.Lower-categories{
+    display: flex;
+    flex-direction: row;
+    gap:3vh;
+    align-items: center;
+    justify-content: center;
+}
+.categories-header{
+    text-align: center;
+    width:100vw;
+}
